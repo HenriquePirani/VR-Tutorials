@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class RotateCube : MonoBehaviour {
 
-    public float spinForce;    
+    public float spinForce;
+    bool isSpinning = false;
 
 	// Use this for initialization
 	void Start () {
@@ -13,12 +14,20 @@ public class RotateCube : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(0, spinForce * Time.deltaTime, 0);
+        if (isSpinning)
+        {
+            transform.Rotate(0, spinForce * Time.deltaTime, 0);
+        }else if (!isSpinning)
+        {
+            transform.Rotate(0, 0, 0);
+        }
+        
+
 	}
 
     public void ChangeSpin()
     {
-        spinForce = -spinForce;
+        isSpinning = !isSpinning;
 
     }
 }

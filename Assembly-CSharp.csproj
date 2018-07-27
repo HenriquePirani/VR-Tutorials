@@ -173,7 +173,20 @@
     <Compile Include="Assets\MyData\Scripts\RotateCube.cs" />
     <Compile Include="Assets\MyData\Scripts\SceneCtrl.cs" />
     <Compile Include="Assets\MyData\Scripts\Teleport.cs" />
-    <Compile Include="Assets\WinGame.cs" />
+    <Compile Include="Assets\MyData\Scripts\WinGame.cs" />
+    <Compile Include="Assets\ResonanceAudio\Demos\Scripts\DemoPlayerController.cs" />
+    <Compile Include="Assets\ResonanceAudio\Demos\Scripts\ResonanceAudioDemo\ResonanceAudioDemoCubeController.cs" />
+    <Compile Include="Assets\ResonanceAudio\Demos\Scripts\ResonanceAudioDemo\ResonanceAudioDemoManager.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudio.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioAcousticMesh.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioListener.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioMaterialMap.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioMaterialMapper.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioMaterialMapperUpdater.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioReverbProbe.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoom.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioRoomManager.cs" />
+    <Compile Include="Assets\ResonanceAudio\Scripts\ResonanceAudioSource.cs" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
@@ -186,9 +199,11 @@
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+    <None Include="Assets\ResonanceAudio\Demos\Environment\ResonanceAudioDemo\CubeRoomUnlitGrayscale.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+    <None Include="Assets\ResonanceAudio\Shaders\ResonanceAudioSurfaceMaterial.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/GamesDevelopment/VR_Cardboard_Tests/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
